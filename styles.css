@@ -1,0 +1,71 @@
+/* เพิ่มการตกแต่งให้สวยงาม */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#chat-container {
+    display: flex;
+    height: 100vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-list {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#chat-window {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#message-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-bottom: 1px solid #ccc;
+}
+
+#input-area {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#contact-list h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #007bff;
+}
